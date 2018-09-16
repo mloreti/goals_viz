@@ -1,0 +1,79 @@
+body {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  background-color: #242219;
+}
+
+h1 {
+  font-family: 'Georgia';
+  font-weight: 300;
+  font-size: 2.25rem;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #333;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 150%;
+  margin: 0;
+  padding: 0;
+}
+
+#data {
+  font-family: 'Avenir', sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  float: left;
+  margin-left: 100px;
+  margin-bottom: 30px;
+  width: 500px;
+  padding: 25px;
+}
+
+#selector {
+  float: left;
+  font-family: 'Avenir', sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  list-style: none;
+  width: 150px;
+  padding: 25px;
+  border-right: 2px solid #333;
+
+}
+
+ul#players {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  cursor:  pointer;
+}
+div.bar {
+    display: inline-block;
+    width: 20px;
+    height: 75px;   /* We'll override this later */
+    background-color: teal;
+    margin-right: 2px;
+}
+
+svg {
+/*  margin-left: 125px;
+*/}
+
+#labels {
+  text-align: center;
+}
+
+#labels p {
+  margin-top: 5px;
+}
+
+text {
+  width: 145px;
+  margin-right: 38px;
+  margin-left: 37px;
+  color: #aaa;
+}

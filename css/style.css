@@ -1,0 +1,51 @@
+body {
+  font-family: 'Avenir';
+  font-size: 14px;
+  width: 600px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.header {
+  letter-spacing: .05em;
+  color: #333;
+}
+
+#names {
+  margin: 20px 0 40px 0;
+}
+#names h3 {
+  letter-spacing: .15em;
+  font-weight: 500;
+  font-size: 16px;
+  color: #777;
+}
+
+li {
+  display: inline-block;
+  color: #333;
+  margin: 5px;
+  padding: 5px 10px;
+  width: auto;
+  cursor: pointer;
+  background: #eaeaea;
+  border-radius: 5px;
+}
+li:hover, .active {
+  background: dodgerblue;
+  color: white;
+}
+.axis path, .axis line{
+  fill: none;
+  stroke : #c3c3c3;
+  shape-rendering: crispEdges;
+}
+
+.axis text{
+  font: 12px 'Avenir';
+}
+.chartLabel {
+  fill: white;
+  font-family: 'Avenir';
+  font-size: 12px;
+  font-weight: 600;
+}
